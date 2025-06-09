@@ -69,7 +69,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
+            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
               Быстрая доставка
             </h3>
             <p className="text-slate-600">В течение 5 минут после засыпания</p>
@@ -81,7 +81,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
+            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
               Гарантия качества
             </h3>
             <p className="text-slate-600">Только проверенные сюжеты</p>
@@ -93,7 +93,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
+            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
               Индивидуальный подход
             </h3>
             <p className="text-slate-600">Сны по вашим предпочтениям</p>
