@@ -48,7 +48,7 @@ const Services = () => {
           <h2 className="text-5xl font-comfortaa text-dream-purple mb-6">
             Наши услуги
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto font-bold">
             Выберите идеальный сон из нашего каталога или закажите
             индивидуальный сюжет
           </p>
