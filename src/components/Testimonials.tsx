@@ -47,11 +47,11 @@ const Testimonials = () => {
               className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 hover:shadow-2xl transition-all"
             >
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 rounded-full bg-dream-purple flex items-center justify-center text-2xl mr-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center text-2xl mr-4 bg-slate-500">
                   {testimonial.avatar}
                 </div>
                 <div>
-                  <h4 className="font-comfortaa text-lg text-dream-purple">
+                  <h4 className="font-comfortaa text-lg text-slate-500">
                     {testimonial.name}
                   </h4>
                   <div className="flex items-center">
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 "{testimonial.text}"
               </p>
 
-              <div className="inline-block bg-dream-purple/10 text-dream-purple px-4 py-2 rounded-full text-sm">
+              <div className="inline-block text-dream-purple px-4 py-2 rounded-full text-sm bg-[#6d6b85]">
                 Сон: {testimonial.dream}
               </div>
             </div>
