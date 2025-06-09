@@ -76,7 +76,7 @@ const Services = () => {
                 <span className="text-2xl font-comfortaa text-dream-purple">
                   {service.price}
                 </span>
-                <button className="bg-dream-purple text-white px-6 py-2 rounded-full hover:bg-purple-600 transition-colors">
+                <button className="text-white px-6 py-2 rounded-full hover:bg-purple-600 transition-colors bg-slate-600">
                   Заказать
                 </button>
               </div>

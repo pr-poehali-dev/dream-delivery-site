@@ -79,7 +79,7 @@ const Testimonials = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-white/50 backdrop-blur-sm rounded-3xl p-8 max-w-2xl mx-auto">
+          <div className="backdrop-blur-sm rounded-3xl p-8 max-w-2xl mx-auto bg-slate-400">
             <Icon
               name="Heart"
               size={48}
