@@ -34,7 +34,7 @@ const Header = () => {
           </a>
         </nav>
 
-        <button className="bg-dream-purple text-white px-6 py-2 rounded-full hover:bg-purple-600 transition-colors">
+        <button className="text-white px-6 py-2 rounded-full hover:bg-purple-600 transition-colors bg-slate-700 font-normal">
           Заказать сон
         </button>
       </div>
