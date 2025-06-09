@@ -85,7 +85,7 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-dream-purple to-purple-600 px-12 py-4 rounded-full text-lg hover:shadow-xl transition-all transform hover:scale-105 text-[#ffffff] font-semibold">
+          <button className="bg-slate-800 hover:bg-slate-700 px-12 py-4 rounded-full text-lg hover:shadow-xl transition-all transform hover:scale-105 text-[#ffffff] font-semibold">
             Посмотреть все услуги
           </button>
         </div>
