@@ -60,7 +60,7 @@ const Services = () => {
               key={index}
               className="bg-gradient-to-br from-dream-cloud to-white rounded-3xl p-8 hover:shadow-2xl transition-all transform hover:-translate-y-2"
             >
-              <div className="w-16 h-16 bg-dream-purple rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 bg-transparent">
                 <Icon name={service.icon} size={32} className="text-white" />
               </div>
 
@@ -85,7 +85,7 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-dream-purple to-purple-600 text-white px-12 py-4 rounded-full text-lg hover:shadow-xl transition-all transform hover:scale-105">
+          <button className="bg-gradient-to-r from-dream-purple to-purple-600 px-12 py-4 rounded-full text-lg hover:shadow-xl transition-all transform hover:scale-105 text-[#ffffff] font-semibold">
             Посмотреть все услуги
           </button>
         </div>
