@@ -79,7 +79,7 @@ const Testimonials = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="backdrop-blur-sm rounded-3xl p-8 max-w-2xl mx-auto bg-slate-400">
+          <div className="backdrop-blur-sm rounded-3xl p-8 max-w-2xl mx-auto bg-slate-500">
             <Icon
               name="Heart"
               size={48}
@@ -88,7 +88,7 @@ const Testimonials = () => {
             <h3 className="text-2xl font-comfortaa text-dream-purple mb-4">
               Более 10,000 довольных клиентов
             </h3>
-            <p className="text-slate-600">
+            <p className="text-slate-200 text-2xl">
               Присоединяйтесь к тысячам людей, которые уже улучшили качество
               своего сна с нашей помощью
             </p>
