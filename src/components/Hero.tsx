@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 pt-32 pb-20 text-center">
+      <div className="relative z-10 container mx-auto px-4 pt-32 pb-20 text-center bg-transparent rounded-full">
         <h1 className="text-6xl md:text-8xl font-comfortaa text-dream-purple mb-6 leading-tight">
           Доставка
           <br />
@@ -54,10 +54,10 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-dream-purple text-white px-8 py-4 rounded-full text-lg hover:bg-purple-600 transition-all transform hover:scale-105">
+          <button className="text-white px-8 py-4 rounded-full text-lg hover:bg-purple-600 transition-all transform hover:scale-105 bg-slate-400">
             Заказать сладкий сон
           </button>
-          <button className="border-2 border-dream-purple text-dream-purple px-8 py-4 rounded-full text-lg hover:bg-dream-purple hover:text-white transition-all">
+          <button className="border-2 border-dream-purple text-dream-purple px-8 py-4 rounded-full text-lg hover:bg-dream-purple hover:text-white transition-all bg-slate-400">
             Каталог снов
           </button>
         </div>
@@ -69,19 +69,19 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg text-dream-purple mb-2">
+            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
               Быстрая доставка
             </h3>
             <p className="text-slate-600">В течение 5 минут после засыпания</p>
           </div>
 
-          <div className="bg-white/50 backdrop-blur-sm rounded-3xl p-6 text-center">
+          <div className="backdrop-blur-sm rounded-3xl p-6 text-center bg-transparent">
             <Icon
               name="Shield"
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg text-dream-purple mb-2">
+            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
               Гарантия качества
             </h3>
             <p className="text-slate-600">Только проверенные сюжеты</p>
@@ -93,7 +93,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa text-lg text-dream-purple mb-2">
+            <h3 className="font-comfortaa text-lg mb-2 text-slate-400">
               Индивидуальный подход
             </h3>
             <p className="text-slate-600">Сны по вашим предпочтениям</p>
