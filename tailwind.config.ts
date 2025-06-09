@@ -64,7 +64,7 @@ export default {
         },
         dream: {
           purple: "#A855F7",
-          cloud: "#F1F5F9",
+          cloud: "#94A3B8",
           moon: "#E2E8F0",
         },
       },
