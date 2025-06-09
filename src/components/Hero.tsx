@@ -75,7 +75,7 @@ const Hero = () => {
             <p className="text-slate-600">В течение 5 минут после засыпания</p>
           </div>
 
-          <div className="backdrop-blur-sm rounded-3xl p-6 text-center bg-transparent">
+          <div className="backdrop-blur-sm p-6 text-center rounded-3xl bg-slate-200">
             <Icon
               name="Shield"
               size={40}
