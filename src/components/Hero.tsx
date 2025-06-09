@@ -54,10 +54,10 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="text-white px-8 py-4 rounded-full text-lg hover:bg-purple-600 transition-all transform hover:scale-105 bg-slate-400">
+          <button className="px-8 py-4 rounded-full text-lg hover:bg-purple-600 transition-all transform hover:scale-105 bg-slate-500 text-[#ffffff]">
             Заказать сладкий сон
           </button>
-          <button className="border-2 border-dream-purple text-dream-purple px-8 py-4 rounded-full text-lg hover:bg-dream-purple hover:text-white transition-all bg-slate-400">
+          <button className="border-2 border-dream-purple text-dream-purple px-8 py-4 rounded-full text-lg hover:bg-dream-purple hover:text-white transition-all bg-slate-500">
             Каталог снов
           </button>
         </div>
@@ -69,7 +69,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
+            <h3 className="font-comfortaa mb-2 text-xl text-slate-500">
               Быстрая доставка
             </h3>
             <p className="text-slate-600">В течение 5 минут после засыпания</p>
@@ -81,7 +81,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
+            <h3 className="font-comfortaa mb-2 text-xl text-slate-500">
               Гарантия качества
             </h3>
             <p className="text-slate-600">Только проверенные сюжеты</p>
@@ -93,7 +93,7 @@ const Hero = () => {
               size={40}
               className="text-dream-purple mx-auto mb-4"
             />
-            <h3 className="font-comfortaa mb-2 text-slate-400 text-xl">
+            <h3 className="font-comfortaa mb-2 text-xl text-slate-500">
               Индивидуальный подход
             </h3>
             <p className="text-slate-600">Сны по вашим предпочтениям</p>
