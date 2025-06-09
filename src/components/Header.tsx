@@ -5,12 +5,10 @@ const Header = () => {
     <header className="bg-white/80 backdrop-blur-sm border-b border-dream-moon sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-dream-purple rounded-full flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full flex items-center justify-center bg-slate-700">
             <Icon name="Moon" size={20} className="text-white" />
           </div>
-          <h1 className="text-xl font-comfortaa text-dream-purple">
-            СонДоставка
-          </h1>
+          <h1 className="text-xl font-comfortaa text-slate-500">СонДоставка</h1>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">
