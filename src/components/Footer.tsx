@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-dream-purple rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full flex items-center justify-center bg-slate-400">
                 <Icon name="Moon" size={20} className="text-white" />
               </div>
               <h3 className="text-xl font-comfortaa text-white">СонДоставка</h3>
